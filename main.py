@@ -2,17 +2,18 @@
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk
+from tkinter import Label
 
 root=tk.Tk()
 root.title("Пример списков")
 root.geometry("500x500")
 
 def button_click1():
-    l1=Label(text="нажата кнопка1")
+    l1=Label(root,text="нажата кнопка1")
     label.pack()
 
 def button_click2():
-    l2=Label(text="нажата кнопка2")
+    l2=Label(root,text="нажата кнопка2")
     label.pack()
 
 button1 = tk.Button(
